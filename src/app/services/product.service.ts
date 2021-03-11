@@ -11,9 +11,9 @@ export class ProductService {
   
   apiUrl = 'https://localhost:44382/api/products/getall';
   
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) { } 
 
   getProducts():Observable<ProductResponseModel> {
     return this.httpClient.get<ProductResponseModel>(this.apiUrl);
   }
-}
+} 

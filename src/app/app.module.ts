@@ -17,7 +17,7 @@ import { NaviComponent } from './components/navi/navi.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule, 
     HttpClientModule
   ],
   providers: [],

@@ -9,4 +9,4 @@ export class AppComponent {
   title: string = 'northwind';
   user: string = 'Engin Demiroğ';
   
-}
+} 
